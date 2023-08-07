@@ -2,7 +2,7 @@
 
 ## How to run
 
-1. Create a `.env ` file on the root folder with the API key:
+1. Create a `.env ` file on the root folder with the API key
 
   ```
   REACT_APP_API_KEY=********
