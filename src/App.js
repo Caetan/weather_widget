@@ -1,8 +1,9 @@
-import {WeatherWidgetComponent} from './components/WeatherWidgetComponent/WeatherWidgetComponent';
+import { WeatherWidgetPage } from "./pages/WeatherWidgetPage";
+
 
 function App() {
   return (
-    <WeatherWidgetComponent />
+    <WeatherWidgetPage />
   );
 }
 
