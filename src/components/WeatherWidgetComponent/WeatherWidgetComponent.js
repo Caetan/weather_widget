@@ -18,7 +18,7 @@ export const WeatherWidgetComponent = ({city}) => {
     setWeatherData()
     const fetchData = async () => {
       try {
-        const loc = await (await fetch(locationApi(city))).json();
+        const loc = await (await fetch(locationApi(city || "Almeria"))).json();
         if (!loc.length) {
           console.error("City not found")
           setError("City not found")
