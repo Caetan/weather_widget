@@ -18,7 +18,7 @@ export const InputWeatherWidgetComponent = ({setCity}) => {
 
   return (
     <>
-      <h1>Weather Widget Component</h1>
+      <h1>Weather Widget</h1>
       <Input label="City" placeholder="Almeria" onChange={(evt) => {
         setUserInput(evt.target.value)
       }}/>
